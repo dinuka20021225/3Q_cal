@@ -18,6 +18,7 @@ class CustomInput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      keyboardType: TextInputType.number,
       controller: controller,
       validator: validator,
       inputFormatters: [
